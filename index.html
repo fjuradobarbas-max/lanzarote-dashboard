@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Guía Lanzarote</title>
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<div id="sidebar">
+
+<h3>Filtros</h3>
+
+<label>
+    <input type="checkbox"
+           data-tipo="hotel"
+           checked>
+    🏨 Hoteles
+</label>
+
+<label>
+    <input type="checkbox"
+           data-tipo="restaurante"
+           checked>
+    🍴 Restaurantes
+</label>
+
+<label>
+    <input type="checkbox"
+           data-tipo="plan"
+           checked>
+    ⭐ Cosas que ver
+</label>
+
+<label>
+    <input type="checkbox"
+           data-tipo="playa"
+           checked>
+    🏖️ Playas
+</label>
+
+<hr>
+
+<label>
+    <input type="checkbox"
+           id="soloFavoritos">
+    ⭐ Sólo favoritos
+</label>
+
+<hr>
+
+<input
+    type="text"
+    id="buscador"
+    placeholder="Buscar...">
+
+<div id="contador"></div>
+
+<button id="btnCentro">
+    📍 Centrar Lanzarote
+</button>
+
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
