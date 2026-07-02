@@ -68,3 +68,20 @@ body{
     margin-top:20px;
     font-weight:bold;
 }
+
+@media (max-width: 768px) {
+
+    body {
+        flex-direction: column;
+    }
+
+    #sidebar {
+        width: 100%;
+        max-height: 35vh;
+        overflow-y: auto;
+    }
+
+    #map {
+        height: 65vh;
+    }
+}
