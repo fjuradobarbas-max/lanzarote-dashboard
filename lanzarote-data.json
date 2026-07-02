@@ -1,0 +1,99 @@
+{
+  "lugares": [
+
+    {
+      "nombre": "Barceló Teguise Beach",
+      "tipo": "hotel",
+      "favorito":true,
+      "lat": 28.9985,
+      "lng": -13.4896,
+      "descripcion": "Adults Only",
+      "web": "https://www.barcelo.com"
+    },
+
+    {
+      "nombre": "Meliá Salinas",
+      "tipo": "hotel",
+      "favorito":true,
+      "lat": 29.00069,
+      "lng": -13.48457,
+      "descripcion": "Hotel de lujo en Costa Teguise",
+      "web": "https://www.melia.com"
+    },
+
+    {
+      "nombre": "Hotel Fariones",
+      "tipo": "hotel",
+      "favorito":true,
+      "lat": 28.9229,
+      "lng": -13.6655,
+      "descripcion": "Uno de los mejores hoteles de la isla",
+      "web": "https://hotelfariones.es"
+    },
+
+    {
+      "nombre": "Timanfaya",
+      "tipo": "plan",
+      "favorito":true,
+      "lat": 29.005,
+      "lng": -13.756,
+      "descripcion": "Parque Nacional de Timanfaya"
+    },
+
+    {
+      "nombre": "La Geria",
+      "tipo": "plan",
+      "favorito":true,
+      "lat": 29.019,
+      "lng": -13.690,
+      "descripcion": "Zona de bodegas"
+    },
+
+    {
+      "nombre": "Jameos del Agua",
+      "tipo": "plan",
+      "favorito":true,
+      "lat": 29.158,
+      "lng": -13.432,
+      "descripcion": "Obra de César Manrique"
+    },
+
+    {
+      "nombre": "Playa de Famara",
+      "tipo": "playa",
+      "favorito":true,
+      "lat": 29.116,
+      "lng": -13.564,
+      "descripcion": "El mejor atardecer de la isla"
+    },
+
+    {
+      "nombre": "Papagayo",
+      "tipo": "playa",
+      "favorito":true,
+      "lat": 28.842,
+      "lng": -13.787,
+      "descripcion": "La playa más famosa"
+    },
+
+    {
+      "nombre": "Ikarus",
+      "tipo": "restaurante",
+      "favorito":true,
+      "lat": 29.060,
+      "lng": -13.563,
+      "descripcion": "Tu restaurante favorito",
+      "maps": "https://www.google.com/search?q=Ikarus+Lanzarote"
+    },
+
+    {
+      "nombre": "Kamezí",
+      "tipo": "restaurante",
+      "favorito":true,
+      "lat": 28.861,
+      "lng": -13.857,
+      "descripcion": "Plan especial"
+    }
+
+  ]
+}
