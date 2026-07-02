@@ -8,9 +8,9 @@ const map = L.map('map').setView(
 );
 
 L.tileLayer(
-    'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
     {
-        attribution: '© OpenStreetMap'
+        attribution: 'Tiles © Esri'
     }
 ).addTo(map);
 
@@ -75,15 +75,23 @@ fetch("lanzarote-data.json")
         });
 
         let popup = `
-            <div style="min-width:220px">
+        <div style="min-width:220px">
 
-                <div class="popup-title">
-                    ${item.nombre}
-                </div>
+            <div class="popup-title">
+                ${item.nombre}
+            </div>
 
-                <p>
-                    ${item.descripcion || ""}
-                </p>
+            ${
+                item.precio
+                ? `<p><strong>💰 Precio:</strong> ${item.precio}</p>`
+                : ''
+            }
+
+            ${
+                item.descripcion
+                ? `<p><strong>📝 Descripción:</strong><br>${item.descripcion}</p>`
+                : ''
+            }
         `;
 
         if(item.favorito){
