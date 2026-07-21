@@ -13,60 +13,16 @@
     },
 
     {
-      "nombre": "Meliá Salinas",
-      "tipo": "hotel",
-      "favorito":true,
-      "lat": 29.00069,
-      "lng": -13.48457,
-      "descripcion": "Hotel de lujo en Costa Teguise",
-      "precio": "5.500",
-      "web": "https://www.booking.com/hotel/es/paradisus-salinas-lanzarote.es.html?label=gog235jc-10CAsoRkIbcGFyYWRpc3VzLXNhbGluYXMtbGFuemFyb3RlSApYA2hGiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKFgJrSBsACAdICJDYzNGFhM2U3LWEwZGMtNGJkMy04ZjNmLTk1NDYzZjk3MGE4MtgCAeACAQ&sid=8fa9f6fd15ce27177109623d5c0f4a9a&aid=356980&ucfs=1&arphpl=1&checkin=2026-08-07&checkout=2026-08-16&dest_id=-403957&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=01de6b036a9703a7&srepoch=1783005209&all_sr_blocks=9452132_278760555_2_85_0&highlighted_blocks=9452132_278760555_2_85_0&matching_block_id=9452132_278760555_2_85_0&sr_pri_blocks=9452132_278760555_2_85_0__555000&from_sustainable_property_sr=1&from=searchresults "
-
-    },
-
-
-    {
-      "nombre": "Hotel Fariones",
-      "tipo": "hotel",
-      "favorito":true,
-      "lat": 28.9229,
-      "lng": -13.6655,
-      "descripcion": "Uno de los mejores hoteles de la isla",
-      "precio": "4.000",
-      "web": "https://www.booking.com/hotel/es/los-fariones.es.html?label=es-es-booking-desktop-onknyt5TBrS8m9RnGd*6fgS652829001115%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9222102%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&arphpl=1&checkin=2026-08-07&checkout=2026-08-16&dest_id=189067&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=99fd6b737b96072f&srepoch=1783005424&all_sr_blocks=18906701_411635346_2_1_0&highlighted_blocks=18906701_411635346_2_1_0&matching_block_id=18906701_411635346_2_1_0&sr_pri_blocks=18906701_411635346_2_1_0__399600&from_sustainable_property_sr=1&from=searchresults"
-    },
-
-    {
-      "nombre": "Princesa Yaiza Suite Hotel Resort ",
-      "tipo": "hotel",
-      "favorito":true,
-      "lat": 28.864386,
-      "lng": -13.822644,
-      "descripcion": "",
-      "precio": "3.500",
-      "web": "https://www.booking.com/hotel/es/princesa-yaiza-suite-resort.es.html?aid=2311236&label=es-es-booking-desktop-onknyt5TBrS8m9RnGd%2A6fgS652829001115%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9222102%3Ali%3Adec%3Adm&sid=8fa9f6fd15ce27177109623d5c0f4a9a&all_sr_blocks=24402812_411634450_0_1_0&checkin=2026-08-07&checkout=2026-08-16&dest_id=244028&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=24402812_411634450_0_1_0&hpos=1&matching_block_id=24402812_411634450_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=24402812_411634450_0_1_0__348750&srepoch=1783005519&srpvid=b70d6ba081a303a9&type=total&ucfs=1&"
-    },
-
-    
-    { 
-      "nombre": " H10 Rubicón Palace ",
-      "tipo": "hotel",
-      "favorito":true,
-      "lat": 28.862681,
-      "lng": -13.857724,
-      "descripcion": "",
-      "precio": "2.400",
-      "web": "https://www.booking.com/hotel/es/h10rubiconpalace.es.html?aid=2311236&label=es-es-booking-desktop-onknyt5TBrS8m9RnGd%2A6fgS652829001115%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9222102%3Ali%3Adec%3Adm&sid=8fa9f6fd15ce27177109623d5c0f4a9a&all_sr_blocks=9061067_88181992_0_41_0&checkin=2026-08-07&checkout=2026-08-16&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=9061067_88181992_0_41_0&hpos=1&matching_block_id=9061067_88181992_0_41_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=distance_from_search&sr_pri_blocks=9061067_88181992_0_41_0__239184&srepoch=1783005833&srpvid=df9a6c3fb16b04c1&type=total&ucfs=1& "
-    },
-
-    {
       "nombre": " La Raspa ",
       "tipo": "restaurante",
       "favorito":true,
       "lat": 28.962261,
       "lng": -13.546741,
       "descripcion": "",
-      "web": "https://www.tripadvisor.es/Restaurant_Review-g187478-d4480690-Reviews-Tasca_La_Raspa-Arrecife_Lanzarote_Canary_Islands.html"
+      "web": "https://www.tripadvisor.es/Restaurant_Review-g187478-d4480690-Reviews-Tasca_La_Raspa-Arrecife_Lanzarote_Canary_Islands.html",
+      "dia": "",
+      "recomendacion": ""
+
     },
 
     {
@@ -76,7 +32,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": "",
-      "web": "https://www.tripadvisor.es/Restaurant_Review-g187478-d4480690-Reviews-Tasca_La_Raspa-Arrecife_Lanzarote_Canary_Islands.html"
+      "web": "https://www.tripadvisor.es/Restaurant_Review-g187478-d4480690-Reviews-Tasca_La_Raspa-Arrecife_Lanzarote_Canary_Islands.html",
+      "dia": 1,
+      "recomendacion": ""
     },
 
 
@@ -87,7 +45,10 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": "Genial para tomarse una copa en la terraza de arriba antes de salir de fiesta por la marina ",
-      "web": ""
+      "web": "" ,     
+      "dia": 2,
+      "recomendacion": ""
+
     },
 
     {
@@ -97,7 +58,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": "Carne",
-      "web": ""
+      "web": "",
+      "dia": 3,
+      "recomendacion": ""
     },
 
   
@@ -108,7 +71,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": 4,
+      "recomendacion": ""
     },
 
     {
@@ -118,7 +83,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": "Carne",
-      "web": ""
+      "web": "",
+      "dia": 5,
+      "recomendacion": ""
     },
 
     {
@@ -128,7 +95,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": 6,
+      "recomendacion": ""
     },
 
     {
@@ -138,7 +107,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -149,7 +120,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": " hamburguesería ",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -160,7 +133,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": " Carne uruguayo ",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -171,7 +146,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -182,7 +159,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -193,7 +172,9 @@
       "lat": 28.959185,
       "lng": -13.547662,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -204,7 +185,9 @@
       "lat": 28.951716,
       "lng": -13.587575,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -215,7 +198,9 @@
       "lat": 28.951716,
       "lng": -13.587575,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -225,7 +210,9 @@
       "lat": 28.951716,
       "lng": -13.587575,
       "descripcion": "Carne",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -236,7 +223,9 @@
       "lat": 28.951716,
       "lng": -13.587575,
       "descripcion": "Italiano",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -247,7 +236,9 @@
       "lat": 28.951716,
       "lng": -13.587575,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -257,7 +248,9 @@
       "lat": 28.951716,
       "lng": -13.587575,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -268,7 +261,9 @@
       "lat": 28.951716,
       "lng": -13.587575,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -278,7 +273,9 @@
       "lat": 28.916763,
       "lng": -13.705072,
       "descripcion": "Arroz",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -289,7 +286,9 @@
       "lat": 28.916763,
       "lng": -13.705072,
       "descripcion": "Carne",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -300,7 +299,9 @@
       "lat": 28.916763,
       "lng": -13.705072,
       "descripcion": " para tomar una copa en el puerto ",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -311,7 +312,9 @@
       "lat": 28.906840,
       "lng": -13.732607,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -322,7 +325,9 @@
       "lat": 28.906840,
       "lng": -13.732607,
       "descripcion": "",
-      "web": ""
+      "web": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -331,7 +336,9 @@
       "favorito":true,
       "lat": 28.861,
       "lng": -13.857,
-      "descripcion": ""
+      "descripcion": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -341,7 +348,9 @@
       "favorito":true,
       "lat": 28.861,
       "lng": -13.857,
-      "descripcion": " Restaurante para un plan especial. Hay menú degustación de tapas los domingos lunes y martes por 45 euros persona. Plan especial para tomarse una copa o cóctel el unas cuevitas, precioso"
+      "descripcion": " Restaurante para un plan especial. Hay menú degustación de tapas los domingos lunes y martes por 45 euros persona. Plan especial para tomarse una copa o cóctel el unas cuevitas, precioso",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -350,7 +359,9 @@
       "favorito":true,
       "lat": 28.980621,
       "lng": -13.830660,
-      "descripcion": " comer Cherne o pescado a la brasa "
+      "descripcion": " comer Cherne o pescado a la brasa ",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -359,7 +370,9 @@
       "favorito":true,
       "lat": 28.980621,
       "lng": -13.830660,
-      "descripcion": " comer Cherne o pescado a la brasa "
+      "descripcion": " comer Cherne o pescado a la brasa ",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -368,7 +381,9 @@
       "favorito":true,
       "lat": 28.920706,
       "lng": -13.671291,
-      "descripcion": " "
+      "descripcion": " ",
+      "dia": 7,
+      "recomendacion": ""
     },
 
 
@@ -378,7 +393,9 @@
       "favorito":true,
       "lat": 28.920706,
       "lng": -13.671291,
-      "descripcion": " "
+      "descripcion": " ",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -388,7 +405,9 @@
       "favorito":true,
       "lat": 28.920706,
       "lng": -13.671291,
-      "descripcion": " "
+      "descripcion": " ",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -398,7 +417,9 @@
       "favorito":true,
       "lat": 28.920706,
       "lng": -13.671291,
-      "descripcion": "Dentro del hotel fariones (uno de los mejores japoneses, caro para ocasiones especiales )"
+      "descripcion": "Dentro del hotel fariones (uno de los mejores japoneses, caro para ocasiones especiales )",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -407,7 +428,9 @@
       "favorito":true,
       "lat": 28.920706,
       "lng": -13.671291,
-      "descripcion": "Pescado"
+      "descripcion": "Pescado",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -416,7 +439,9 @@
       "favorito":true,
       "lat": 29.145157,
       "lng": -13.446248,
-      "descripcion": " para tomar unas cervezas y tapas frente a las piscinas naturales "
+      "descripcion": " para tomar unas cervezas y tapas frente a las piscinas naturales ",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -426,7 +451,9 @@
       "favorito":true,
       "lat": 28.999825,
       "lng": -13.489761,
-      "descripcion": " arroces, probablemente uno de los mejores arroces que he comido, caro 80 euros persona"
+      "descripcion": " arroces, probablemente uno de los mejores arroces que he comido, caro 80 euros persona",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -436,7 +463,9 @@
       "favorito":true,
       "lat": 28.999825,
       "lng": -13.489761,
-      "descripcion": " Carne"
+      "descripcion": " Carne",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -446,7 +475,9 @@
       "favorito":true,
       "lat": 28.999825,
       "lng": -13.489761,
-      "descripcion": " Carne"
+      "descripcion": " Carne",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -456,7 +487,9 @@
       "favorito":true,
       "lat": 28.999825,
       "lng": -13.489761,
-      "descripcion": " Carne"
+      "descripcion": " Carne",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -466,7 +499,9 @@
       "lat": 29.060,
       "lng": -13.563,
       "descripcion": "Tu restaurante favorito",
-      "web": "https://www.google.com/search?q=Ikarus+Lanzarote"
+      "web": "https://www.google.com/search?q=Ikarus+Lanzarote",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -475,7 +510,9 @@
       "favorito":true,
       "lat": 29.019,
       "lng": -13.690,
-      "descripcion": " La zona de las bodegas, precioso. Tomar un vino en cualquiera (mis favoritos Stratus, La geria, el chupadero,rubicon, el grifo). Se puede hacer visita guiada por la bodega el grifo "
+      "descripcion": " La zona de las bodegas, precioso. Tomar un vino en cualquiera (mis favoritos Stratus, La geria, el chupadero,rubicon, el grifo). Se puede hacer visita guiada por la bodega el grifo ",
+      "dia": "",
+      "recomendacion": ""
     },
 
 	
@@ -485,7 +522,9 @@
       "favorito":true,
       "lat": 29.145157,
       "lng": -13.446248,
-      "descripcion": " Tomar unas tropicales con una tapita en el murito del bar piscina viendo las piscinas naturales top. "
+      "descripcion": " Tomar unas tropicales con una tapita en el murito del bar piscina viendo las piscinas naturales top. ",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -495,7 +534,9 @@
       "favorito":true,
       "lat": 28.962026,
       "lng": -13.549121,
-      "descripcion": " Visitar al atardecer el charco de san Ginés en Arrecife para tomar unas cervezas, cenar en la raspa, tomar una copa en el restaurante puertito o en la miñoca.lo más bonito de Arrecife junto con el paseo marítimo, donde se encuentra el castillo. En arrecife está el mayor centro comercial por si necesitas comprar algo, Open mall "
+      "descripcion": " Visitar al atardecer el charco de san Ginés en Arrecife para tomar unas cervezas, cenar en la raspa, tomar una copa en el restaurante puertito o en la miñoca.lo más bonito de Arrecife junto con el paseo marítimo, donde se encuentra el castillo. En arrecife está el mayor centro comercial por si necesitas comprar algo, Open mall ",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -505,7 +546,9 @@
       "favorito":true,
       "lat": 29.005,
       "lng": -13.756,
-      "descripcion": "Parque Nacional de Timanfaya"
+      "descripcion": "Parque Nacional de Timanfaya",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -515,7 +558,9 @@
       "favorito":true,
       "lat": 28.960823,
       "lng": -13.829832,
-      "descripcion": " Uno de los atardeceres más bonitos de la isla junto a Famara. Tomar un buen cherne en el Costa azul o casa Torano mientras atardece top "
+      "descripcion": " Uno de los atardeceres más bonitos de la isla junto a Famara. Tomar un buen cherne en el Costa azul o casa Torano mientras atardece top ",
+      "dia": "",
+      "recomendacion": ""
     },
     
     {
@@ -524,7 +569,9 @@
       "favorito":true,
       "lat": 29.158,
       "lng": -13.432,
-      "descripcion": "Obra de César Manrique"
+      "descripcion": "Obra de César Manrique",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -533,7 +580,9 @@
       "favorito":true,
       "lat": 28.992679,
       "lng": -13.489975,
-      "descripcion": ""
+      "descripcion": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -542,7 +591,9 @@
       "favorito":true,
       "lat": 28.998296,
       "lng": -13.488493,
-      "descripcion": ""
+      "descripcion": "",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -552,7 +603,9 @@
       "favorito":true,
       "lat": 28.842,
       "lng": -13.787,
-      "descripcion": "La playa más famosa"
+      "descripcion": "La playa más famosa",
+      "dia": "",
+      "recomendacion": ""
     },
 
 
@@ -562,7 +615,9 @@
       "favorito":true,
       "lat": 28.919641,
       "lng": -13.649576,
-      "descripcion": " Las calitas de enfrente del restaurante Lanys"
+      "descripcion": " Las calitas de enfrente del restaurante Lanys",
+      "dia": "",
+      "recomendacion": ""
     },
 
     {
@@ -571,7 +626,9 @@
       "favorito":true,
       "lat": 28.919740,
       "lng": -13.664763,
-      "descripcion": "una de mis favoritas, al lado de playa chica"
+      "descripcion": "una de mis favoritas, al lado de playa chica",
+      "dia": "",
+      "recomendacion": ""
     }
 
 
