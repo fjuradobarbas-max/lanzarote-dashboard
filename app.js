@@ -19,6 +19,7 @@ L.tileLayer(
 // =====================================
 
 const cluster = L.markerClusterGroup();
+
 map.addLayer(cluster);
 
 const markers = [];
@@ -74,25 +75,43 @@ fetch("lanzarote-data.json")
             `
         });
 
+        // =====================================
+        // POPUP
+        // =====================================
+
         let popup = `
-        <div style="min-width:220px">
+        <div style="min-width:260px">
 
             <div class="popup-title">
                 ${item.nombre}
             </div>
-
-            ${
-                item.precio
-                ? `<p><strong>💰 Precio:</strong> ${item.precio}</p>`
-                : ''
-            }
-
-            ${
-                item.descripcion
-                ? `<p><strong>📝 Descripción:</strong><br>${item.descripcion}</p>`
-                : ''
-            }
         `;
+
+        if(item.precio){
+
+            popup += `
+                <p>
+                    <strong>💰 Precio:</strong>
+                    ${
+                        typeof item.precio === "number"
+                        ? "€".repeat(item.precio)
+                        : item.precio
+                    }
+                </p>
+
+                <hr>
+            `;
+        }
+
+        if(item.descripcion){
+
+            popup += `
+                <p>
+                    <strong>📝 Descripción:</strong><br>
+                    ${item.descripcion}
+                </p>
+            `;
+        }
 
         if(item.favorito){
 
@@ -107,9 +126,8 @@ fetch("lanzarote-data.json")
 
             popup += `
                 <p>
-                    <a href="${item.web}"
-                       target="_blank">
-                       🌐 Página web
+                    ${item.web}
+                        🌐 Página Web
                     </a>
                 </p>
             `;
@@ -119,15 +137,16 @@ fetch("lanzarote-data.json")
 
             popup += `
                 <p>
-                    <a href="${item.maps}"
-                       target="_blank">
-                       📍 Google Maps
+                    ${item.maps}
+                        📍 Google Maps
                     </a>
                 </p>
             `;
         }
 
-        popup += `</div>`;
+        popup += `
+        </div>
+        `;
 
         const marker = L.marker(
             [item.lat, item.lng],
@@ -140,8 +159,10 @@ fetch("lanzarote-data.json")
 
         marker.bindPopup(popup);
 
-        marker.on("mouseover", function() {
+        marker.on("mouseover", function(){
+
             this.openPopup();
+
         });
 
         markers.push(marker);
@@ -168,6 +189,20 @@ document
     );
 
 });
+
+document
+.getElementById("buscador")
+.addEventListener(
+    "input",
+    actualizarFiltros
+);
+
+document
+.getElementById("filtroDias")
+.addEventListener(
+    "change",
+    actualizarFiltros
+);
 
 document
 .getElementById("btnCentro")
@@ -209,18 +244,23 @@ function actualizarFiltros(){
 
     });
 
+    const diasSeleccionados =
+    document.getElementById(
+        "filtroDias"
+    ).value;
+
     const soloFavoritos =
-        document.getElementById(
-            "soloFavoritos"
-        ).checked;
+    document.getElementById(
+        "soloFavoritos"
+    ).checked;
 
     const texto =
-        document.getElementById(
-            "buscador"
-        )
-        .value
-        .toLowerCase()
-        .trim();
+    document.getElementById(
+        "buscador"
+    )
+    .value
+    .toLowerCase()
+    .trim();
 
     let contador = 0;
 
@@ -230,7 +270,9 @@ function actualizarFiltros(){
 
         let mostrar = true;
 
-        // FILTRO CATEGORIA
+        // ==================
+        // CATEGORÍA
+        // ==================
 
         if(
             !categorias.includes(
@@ -240,7 +282,21 @@ function actualizarFiltros(){
             mostrar = false;
         }
 
-        // FILTRO FAVORITOS
+        // ==================
+        // DÍAS
+        // ==================
+
+        if(
+            diasSeleccionados &&
+            info.dias &&
+            info.dias != diasSeleccionados
+        ){
+            mostrar = false;
+        }
+
+        // ==================
+        // FAVORITOS
+        // ==================
 
         if(
             soloFavoritos &&
@@ -249,7 +305,9 @@ function actualizarFiltros(){
             mostrar = false;
         }
 
-        // FILTRO TEXTO
+        // ==================
+        // BUSCADOR
+        // ==================
 
         if(
             texto &&
@@ -259,6 +317,10 @@ function actualizarFiltros(){
         ){
             mostrar = false;
         }
+
+        // ==================
+        // MOSTRAR
+        // ==================
 
         if(mostrar){
 
@@ -273,9 +335,7 @@ function actualizarFiltros(){
     });
 
     document
-    .getElementById(
-        "contador"
-    )
+    .getElementById("contador")
     .innerHTML =
     `📍 ${contador} lugares`;
 
